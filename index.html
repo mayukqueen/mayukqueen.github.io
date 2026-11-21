@@ -3,21 +3,69 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>邱晟瑋（丘濬）的個人網頁</title> 
-  <style>
-<body>
-  <h1>邱晟瑋（丘濬）的個人網頁</h1>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-  <img
-    src="emperor-didi.png"
-    alt="皇帝底迪"
-    style="width: 100%; max-width: 420px; height: auto; border-radius: 12px;"
-  >
-</body>
-<h1>邱晟瑋（丘濬）的個人網頁</h1> 
-  <p>這是我的第一個個人網站。</p>
-  <p>未來將在這裡分享文化、閱讀與生活紀錄。</p>
-  <p>網站建設中，敬請期待！</p>
+  <title>邱晟瑋（丘濬）的個人網頁</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #fffdf5;
+      color: #333333;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: #b8860b;
+      font-size: 30px;
+      line-height: 1.5;
+      margin: 0 0 30px;
+    }
+
+    .emperor-image {
+      display: block;
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 25px 15px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .emperor-image {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <h1>邱晟瑋（丘濬）的個人網頁</h1>
+
+    <img
+      class="emperor-image"
+      src="emperor-didi.png"
+      alt="皇帝底迪"
+    >
+  </main>
+
 </body>
 </html>
